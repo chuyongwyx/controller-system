@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../common/bootstrap-3.3.7-dist/css/bootstrap.css" />
+		<link rel="stylesheet" href="../css/reset.css" />
+		<link rel="stylesheet" href="../css/main.css" />
+		<link rel="stylesheet" href="../common/font/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="../common/layui/css/layui.css"/>
+	</head>
+	<body>
+			<div class="main">
+				<div class="content-left">
+					<ul class="list">
+							<li><p class="indexbox"><span  class="iconfont">&#xe62c;
+</span>首页</p></li>
+							<li ><p class="shopList"><span class="iconfont">&#xe605;</span>商家店铺<span class="iconfont iconrg">&#xe66c;</span></p>
+								<ul class="ShopInfo">
+									<li class="shopLister">商家列表</li>
+									<li class="addshops">新增商家</li>
+								</ul>		
+							</li>
+							
+							
+					</ul>
+				</div>
+				<div class="content-right">
+					<div class="content-rig_top">
+						<span class="tip_list">首页</span>
+						<p class="user"><span class="iconfont">&#xe6b9;</span><span id="username"></span><span id="loginout"></span><span id="userlogin"></span></p>
+					</div>
+					
+					<!--新增商家-->
+					 	<div class="common"></div>
+						<div class="page" id="countPage"></div>
+				</div>
+				<div class="updata">
+					<div class="content">
+							<div class="upshop">
+								<form class="upshopfrom">
+									<div class="form-group"><h3>修改商家信息</h1></div>
+									  <div class="form-group">
+									    <label for="upshopName">修改商家名称</label>
+									    <input type="text" class="form-control" id="upshopName" placeholder="商家名称">
+									  </div>
+									  <div class="form-group">
+									    <label for="upshopUpPrice">商家起送价格</label>
+									    <input type="text" class="form-control" id="upshopUpPrice" placeholder="商家起送价格">
+									  </div>
+									   <div class="form-group">
+									    <label for="upshopAdress">商家地址</label>
+									    <input type="text" class="form-control" id="upshopAdress" placeholder="商家地址">
+									  </div>
+									   <div class="form-group">
+									    <label for="">商家电话</label>
+									    <input type="text" class="form-control" id="upshopTel" placeholder="商家电话">
+									  </div>
+									 
+						
+								</form>
+									<button type="button" class="btn btn-default"id="upshop" >修改</button>		  	
+						 
+							</div>
+					</div>
+				</div>
+				<div class="addgoods_main"></div>
+				<div class="goodslist_main">
+					<div class="goodslist_content"></div>
+					<div class="page" id="countPage2"></div>
+				</div>
+				<div id="map"></div>
+			</div>
+			<script src="https://cdn.bootcss.com/js-cookie/latest/js.cookie.js"></script>
+			<script src="../common/js/jquery-1.11.3.js"></script>
+			<script src="../common/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+			 <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/echarts.min.js"></script>
+       <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts-gl/echarts-gl.min.js"></script>
+       <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts-stat/ecStat.min.js"></script>
+       <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/extension/dataTool.min.js"></script>
+       <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/map/js/china.js"></script>
+       <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/map/js/world.js"></script>
+       <script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=xfhhaTThl11qYVrqLZii6w8qE5ggnhrY&__ec_v__=20190126"></script>
+       <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/extension/bmap.min.js"></script>
+       <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/simplex.js"></script>
+			 <script src="../js/echart.js"></script>
+			 <script src="../common/layui/layui.js"></script>
+			<script src="../js/addshop.js"></script>
+			<script src="../js/layPage.js"></script>
+			<script src="../js/shoplist.js"></script>
+			<script src="../js/addgoods.js"></script>
+			<script src="../js/layPage2.js"></script>
+			<script src="../js/goodsList.js"></script>
+			<script src="../js/updateShop.js"></script>
+			<script src="../js/deleteGoods.js"></script>
+			<script src="../js/page.js"></script>
+		
+	</body>
+</html>
